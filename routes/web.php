@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/holamundo', function () {
+    return view('welcome');
+});
